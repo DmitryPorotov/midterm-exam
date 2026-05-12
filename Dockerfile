@@ -22,6 +22,6 @@ ENV PORT=5000
 ENV VERSION=1.0.0
 # API_KEY must be supplied at runtime — no default
  
-EXPOSE 5000
+EXPOSE ${PORT}
  
 CMD ["python", "app.py"]
